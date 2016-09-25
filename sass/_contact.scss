@@ -1,0 +1,95 @@
+
+.contenedor {
+	max-width: 1000px;
+	margin: auto;
+}
+
+header {
+	background-image: $imagen-header1;
+	height: 573px;
+	background-position: center;
+	color: $color-letra-boton;
+	font-family: $tipo-letra;
+	text-align: center;
+
+	div {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+   		height: 400px;
+
+		h1 {
+			font-size: 36px;
+			line-height: 100px;
+		}
+
+		p {
+			max-width: 70%;
+			font-size: 20px;
+			line-height: 30px;
+		}
+	}
+} 
+
+.formulario {
+	font-family: $tipo-letra;
+	text-align: center;
+	margin: 50px 0;
+
+	.texto {
+		margin-bottom: 50px;
+		line-height: 50px;
+
+		h2 {
+			font-size: 24px;
+			font-weight: bold;
+		}
+	}
+
+	.ancho {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		margin-bottom: 30px;
+
+		.caja {
+			display: flex;
+			flex-direction: column;
+			width: 40%;
+			margin-right: 10px;
+		}
+
+		.datos {
+			height: 50px;
+			margin: 5px 0 5px 0;
+			border: 1px solid lightblue;
+			border-radius: 1%;
+		}
+		.uno {
+			margin-top: 0;
+		}
+
+		.tres {
+			margin-bottom: 0;
+		}
+	}
+
+	.mensaje {
+			width: 40%;
+			margin-left: 10px;
+			border: 1px solid lightblue;
+			border-radius: 1%
+		
+	}
+
+	.boton {
+		background: $color-boton;
+		color: $color-letra-boton;
+		width: 20%;
+		height: 40px;
+		border-radius: 5px;
+		text-transform: uppercase;
+	}
+
+}

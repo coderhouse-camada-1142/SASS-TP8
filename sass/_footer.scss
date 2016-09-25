@@ -1,0 +1,87 @@
+
+footer {
+	font-family: $tipo-letra;
+	text-align: center;
+
+	.claro {
+		padding: 100px 50px;
+		background: $color-footer-principal;
+
+		@media screen and (max-width: 977px) {
+			padding: 100px 0;
+		}
+	
+		h3 {
+			color: white;
+			font-size: 24px;
+
+			.numeros {
+				color: $color-span-footer;
+				font-size: 48px;
+			
+				@media screen and (max-width: 977px) {
+					font-size: 24px;
+				}
+
+				@media screen and (max-width: 600px) {
+					font-size: 20px;
+				}
+			}
+
+			@media screen and (max-width: 788px) {
+				width: 90%;
+				margin: auto;
+			}
+
+			@media screen and (max-width: 600px) {
+				font-size: 20px;
+			}
+		}
+	} 
+
+	.oscuro {
+		background: $color-footer-secundario;
+
+		@media screen and (max-width: 977px) {
+			padding-top: 40px;
+		}
+
+		div {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			
+			@media screen and (max-width: 977px) {
+				flex-direction: column;
+			}
+
+			h5 {
+				color: $color-letra-menu-footer;
+			}
+
+			nav {
+				width: 150px;
+				ul {
+					display: flex;
+					justify-content: space-between;
+
+					@media screen and (max-width: 977px) {
+						margin: 20px 0;
+					}
+
+					a {
+						text-decoration: none;
+						color: $color-letra-menu-footer;
+
+						span {
+							@media screen and (max-width: 977px) {
+								display: none;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+

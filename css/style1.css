@@ -1,0 +1,166 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import "https://fonts.googleapis.com/css?family=Open+Sans|Raleway";
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+nav {
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin: 30px; }
+  nav div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    nav div ul {
+      display: flex;
+      justify-content: space-between;
+      list-style: none; }
+      nav div ul li {
+        padding: 0 20px; }
+      nav div ul a {
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase; }
+
+footer {
+  font-family: "Open Sans", sans-serif;
+  text-align: center; }
+  footer .claro {
+    padding: 100px;
+    background: #142e3f; }
+    footer .claro h3 {
+      color: white;
+      font-size: 24px; }
+      footer .claro h3 .numeros {
+        color: #01acfa;
+        font-size: 48px; }
+  footer .oscuro {
+    background: #091722; }
+    footer .oscuro div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      footer .oscuro div h5 {
+        color: #acb0b9; }
+      footer .oscuro div nav {
+        width: 150px; }
+        footer .oscuro div nav ul {
+          display: flex;
+          justify-content: space-between; }
+          footer .oscuro div nav ul a {
+            text-decoration: none;
+            color: #acb0b9; }
+
+.contenedor {
+  max-width: 1000px;
+  margin: auto; }
+
+header {
+  background-image: url("../Images/indexbanner-bg2.jpg");
+  height: 573px;
+  background-position: center;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  text-align: center; }
+  header div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px; }
+    header div h1 {
+      font-size: 36px;
+      line-height: 100px; }
+    header div p {
+      max-width: 70%;
+      font-size: 20px;
+      line-height: 30px; }
+
+.formulario {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin: 50px 0; }
+  .formulario .texto {
+    margin-bottom: 50px;
+    line-height: 50px; }
+    .formulario .texto h2 {
+      font-size: 24px;
+      font-weight: bold; }
+  .formulario .ancho {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px; }
+    .formulario .ancho .caja {
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+      margin-right: 10px; }
+    .formulario .ancho .datos {
+      height: 50px;
+      margin: 5px 0 5px 0;
+      border: 1px solid lightblue;
+      border-radius: 1%; }
+    .formulario .ancho .uno {
+      margin-top: 0; }
+    .formulario .ancho .tres {
+      margin-bottom: 0; }
+  .formulario .mensaje {
+    width: 40%;
+    margin-left: 10px;
+    border: 1px solid lightblue;
+    border-radius: 1%; }
+  .formulario .boton {
+    background: #2EAFFA;
+    color: white;
+    width: 20%;
+    height: 40px;
+    border-radius: 5px;
+    text-transform: uppercase; }
+
+/*# sourceMappingURL=style1.css.map */

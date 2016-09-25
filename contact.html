@@ -1,0 +1,79 @@
+<!Doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TP8-SASS-Contact</title>
+	<link rel="stylesheet" type="text/css" href="css/style1.css">
+</head>
+<body>
+	<nav>
+		<div class="contenedor">
+			<img src="Images/header-logo.png">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+	<header>
+		<div class="contenedor">
+			<h1>Contact</h1>
+			<p>Curabitur ultricies elementum mauris eu dapibus dui aliquet mauris eusimod neque a molestie</p>
+		</div>		
+	</header><!-- /header -->
+
+	<section class="formulario">
+		<div class="contenedor">
+			<div class="texto">
+				<h2>Get in Touch</h2>
+				<h4>Duis egestasnibh at ex ornare efficitur fusce ullamcorper turpis eu lectus</h4>
+			</div>
+
+			<div>
+				<form method="POST" action="enviar.php">
+					<div class="ancho">
+						<div class="caja">
+							<label for="nombre"></label>
+							<input class="datos uno" name="nombre" placeholder="Name" type="text" required>
+							<label for="sobrenombre"></label>
+							<input class="datos" name="sobrenombre" placeholder="Subname" type="text">
+							<label for="asunto"></label>
+							<input class="datos tres" name="asunto" placeholder="Subject" type="text" required>
+						</div>
+
+						<label for="mensaje"></label>
+						<textarea class="mensaje" name="mensaje" placeholder="Message" ></textarea>
+					</div>
+					<input class="boton" type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+
+	</section>
+
+
+	<footer>		
+		<div class="claro">
+			<div class="contenedor">
+				<h3>Hosting use <span class="numeros">500,000</span> happy customers. Want to see services?</h3>
+			</div>
+		</div>
+		<div class="oscuro">
+			<div class="contenedor">
+				<h5>©2015 Hostro. All right reserved.</h5>
+				<nav>
+					<ul class="lista1">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<a href="#"><span class="ion-chevron-up"></span></a>
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+	</footer>
+
+	
+</body>
+</html>
